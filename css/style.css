@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  background-color: #07203F;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  padding: 55px 0;
+  background-color: #07203f;
+  max-height: 154px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 100px;
+}
+
+.content {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+
+/* .logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+} */
+
+.logo {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.logo:hover {
+  color: gray;
+  transition: 0.5s;
+}
+
+.logo:not(:hover) {
+  transition: 1s;
+
+}
+
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+
+}
+
+ul li:not(:last-child) {
+  margin-right: 40px;
+
+}
+
+
+
+.menu a {
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  border-bottom: 3px solid #fff;
+
+}
+
+.section__container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 250px 0 100px 0;
+
+}
+
+.section__left {
+  gap: 49px;
+}
+
+.section__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 78px;
+  color: #d9d9d9;
+  padding-top: 25px;
+}
+
+.section__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #d9d9d9;
+  padding: 41px 0 41px 0;
+  max-width: 605px;
+}
+
+.section__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  min-height: 106px;
+  max-width: 605px;
+  width: 100%;
+  background-color: #d9d9d9;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+
+}
+
+.section__button:hover {
+  background-color: gray;
+  transition: 1s;
+  box-shadow: 10Px 5px 10px #fff;
+
+  background: #6f7561;
+  color: #fff;
+
+
+}
+
+.section__button:not(:hover) {
+  transition: 2s;
+}
+
+
+
+
+.section__image {
+  border-radius: 50%;
+  max-width: 516px;
+  margin-left: 46px;
+}
+
+.works {
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(https://sibadvokat.ru/wp-content/uploads/2021/06/foto-i-zakon-chto-delat-esli-kto-to-opublikoval-moyo-foto-730x430.jpg);
+  padding-top: 140px;
+}
+
+.title__works {
+  color: #333333;
+  max-width: 349px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.section__containers {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  gap: 58px;
+  padding-bottom: 100px;
+}
+
+.left,
+.right {
+  border: 4px solid #d9aa90;
+}
+
+.middle {
+  border: 4px solid #07203f;
+}
+
+.card {
+  width: 350px;
+  max-height: 223px;
+  border-bottom: 1px solid black;
+}
+
+.card__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 78px;
+  color: #fff;
+  text-align: center;
+  background-color: #07203f;
+  padding: 25px;
+}
+
+#card {
+  background-color: #d9aa90;
+  padding: 25px;
+}
+
+.project {
+  min-height: 100vh;
+  background-color: #07203f;
+  padding: 135px 0;
+}
+
+.project__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.project__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project__content:not(:last-child) {
+  margin-bottom: 134px;
+}
+
+.project__image {
+  max-width: 540px;
+  height: 367px;
+}
+
+.title__project {
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+.title__job {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.project__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #d9d9d9;
+}
+
+#working {
+  flex-direction: row-reverse;
+}
+
+.register {
+  background-color: #eaded4;
+  min-height: 100vh;
+  padding: 190px 0;
+}
+
+.register__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.register__title {
+  height: 124px;
+  color: #333333;
+  margin-bottom: 70px;
+}
+
+.register__content {
+  background-color: #fff;
+  padding: 70px 50px;
+  max-width: 759px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding: 41px 25px;
+  width: 631px;
+  border: 0;
+  background-color: #eaded4;
+  opacity: 0.35;
+  transition: 0.3s box-shadow;
+  margin-bottom: 38px;
+}
+
+input::-webkit-input-placeholder {
+  color: rgb(152, 24, 24);
+}
+
+input:hover {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  background-color: #fafafa;
+}
+
+button {
+  padding: 10px;
+
+  background-color: #eaded4;
+  opacity: 0.8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+
+  font-size: 36px;
+  line-height: 43px;
+  width: 266px;
+
+  height: 68px;
+}
+
+.reset:hover {
+  opacity: 0.4;
+}
+
+.reset {
+  margin-right: 99px;
+}
+
+.popa:hover {
+  opacity: 0.4;
+}
+
+.contact {
+  background-image: url(https://png.pngtree.com/background/20211217/original/pngtree-cyan-background-picture-image_1573522.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 140px;
+  border-bottom: 1px solid #fff;
+}
+
+.contact__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+.contact__title {
+
+  color: #333;
+  margin-bottom: 65px;
+}
+
+.contact__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.contact__content {
+  display: flex;
+  justify-content: center;
+  gap: 58px;
+
+}
+
+.square {
+  border-radius: 30px;
+  background-color: #3a43e2;
+  max-width: 350px;
+  padding: 99px 42px;
+}
+
+.square__middle {
+  background-color: #D9AA90;
+}
+
+.contact__btn {
+  background-color: #D9D9D9;
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  max-width: 299px;
+}
+
+.contact__btn:hover {
+  transition: 0.5s;
+  opacity: 0.5;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px black;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer {
+  background-color: #07203F;
+  max-height: 138px;
+}
+
+.footer__container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 138px;
+  align-items: center;
+}
